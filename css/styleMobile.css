@@ -39,9 +39,11 @@
     text-align: center;
     margin-right: 0px;
   }
-
-  .buttonHeader li:hover {
+  .hebarg:hover{
     border-top: none;
+
+  }
+  .buttonHeader li:hover {
     border-bottom: solid 3px var(--primaryColor);
   }
   .titre {
@@ -139,7 +141,7 @@
   }
 
   .hebergementInfo {
-    row-gap: 12px;
+    row-gap: 5px;
     padding-left: 29px;
   }
 
@@ -184,12 +186,11 @@
     border-radius: 20px;
   }
   .activites img {
-    height: 252px;
+    height: 192px;
   }
 
-  .activites h5 {
-    margin: 38px 17px 1px 18px;
-    height: 30px;
+  .activites h6 {
+    margin: 19px 17px 1px 18px;
   }
 
   .photoMobil {

@@ -75,9 +75,7 @@
   .margininfo {
     margin: 4px 0px -19px 0px;
   }
-  .starsHebergement {
-    margin-left: -10px;
-  }
+
 
   /* /////////////Activites à Marseille /////////////*/
 
@@ -91,9 +89,7 @@
     height: 310px;
   }
 
-  .activites h5 {
-    height: 47px;
-  }
+  
 
   footer {
     margin-top: 39px;

@@ -47,10 +47,13 @@ body {
   margin-right: 20px;
   text-decoration: none;
 }
-.buttonHeader li:hover {
+
+ .hebarg:hover{
   border-top: solid 3px var(--primaryColor);
-  color: var(--primaryColor);
-}
+  padding-top:  45px;
+ }
+
+
 
 .titre h1 {
   font-size: 22px;
@@ -128,6 +131,7 @@ body {
   height: 18px;
   padding: 10px 10px 10px 0;
 }
+/* ///////////////////////// block filters hover ///////////////////////////////:*/
 
 .block-Filtres:hover {
   background-color: var(--secondaryColor);
@@ -211,7 +215,7 @@ body {
 }
 
 .hebergements h2 {
-  padding: 30px 59px;
+  padding: 18px 31px;
   font-size: 20px;
 }
 
@@ -234,29 +238,32 @@ body {
   height: auto;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
-
   max-width: 100%;
-
   max-height: 100%;
   border-radius: 20px;
+  padding:1px;
 }
 
 .marginHebergementsInfo {
-  margin: -12px -13px -27px -4px;
+  margin: -5px 7px -21px 1px;
 }
 
 .hebergementInfo {
   display: flex;
   flex-direction: column;
-  row-gap: 3px;
-  padding-left: 24px;
+   padding-left: 24px;
   padding-left: 10px;
+}
+
+.pharagraph{
+  font-size: 14px;
 }
 
 .starsHebergement {
   display: flex;
   flex-direction: row;
-  margin-top: -25px;
+  margin-top: -24px;
+  margin-left: -5px;
 }
 
 .hebergementsHref {
@@ -276,7 +283,7 @@ body {
 }
 
 .star {
-  font-size: 20px;
+  font-size: 13px;
   margin-right: -6px;
 }
 
@@ -335,7 +342,8 @@ body {
 .populairesMaison img {
   background-size: cover;
   height: auto;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px ;
+  padding:1px;
 }
 .populairesContenteVide {
   flex: 1;
@@ -360,31 +368,28 @@ body {
 .lesActivites {
   display: flex;
   flex-direction: row;
-  row-gap: 3px;
-  column-gap: 73px;
+  column-gap: 17px;
 }
 
 .activites {
   background-color: white;
-
   box-shadow: 8px 8px 11px -6px #0000002e;
-  transition: 0.2s ease-in-out;
-  display: flex;
+   display: flex;
   flex-direction: column;
   border-radius: 27px;
 }
 
 .activites img {
   width: 100%;
-  height: 390px;
+
   object-fit: cover;
   margin-top: -20px;
-  border-radius: 35px 35px 0 0;
+  border-radius: 35px 35px 0px 0px;
 }
 
-.activites h5 {
-  margin: 4px 8px 1px 18px;
-  height: 42px;
+.activites h6 {
+  margin: 7px 48px 1px 18px;
+  height: 28px;
 }
 
 .ActivitesaMarseille h2 span {
@@ -392,7 +397,8 @@ body {
 }
 .ActivitesaMarseille h2 {
   font-size: 20px;
-  padding-bottom: 26px;
+  padding-bottom: 18px;
+  padding-left: 24px;
 }
 .photoMobil {
   display: none;
