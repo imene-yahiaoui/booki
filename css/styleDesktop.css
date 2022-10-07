@@ -381,7 +381,6 @@ body {
 
 .activites img {
   width: 100%;
-
   object-fit: cover;
   margin-top: -20px;
   border-radius: 35px 35px 0px 0px;
